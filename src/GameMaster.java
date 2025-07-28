@@ -14,9 +14,9 @@ public class GameMaster {
         }
 
         ArrayList<Monster> monster = new ArrayList<>();
-        monster.add(new Matango("お化けキノコ", 'A',45));
-        monster.add(new Goblin("ゴブリン", 'A',50));
-        monster.add(new Slime("スライム", 'A',40));
+        monster.add(new Matango('A',45));
+        monster.add(new Goblin( 'A',50));
+        monster.add(new Slime( 'A',40));
         System.out.println("---敵グループ---");
         for (Monster monsters : monster) {
             monsters.showStatus();
